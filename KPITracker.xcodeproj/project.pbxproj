@@ -54,6 +54,11 @@
 		3234E0B6228D243000296912 /* KPITracker */ = {
 			isa = PBXGroup;
 			children = (
+				3234E0CE228D6ADA00296912 /* Data */,
+				3234E0CC228D6AB700296912 /* Views */,
+				3234E0CB228D6AA900296912 /* Controllers */,
+				3234E0CA228D6A9E00296912 /* ViewModels */,
+				3234E0C9228D377F00296912 /* Models */,
 				3234E0B7228D243000296912 /* AppDelegate.swift */,
 				3234E0B9228D243000296912 /* ViewController.swift */,
 				3234E0BB228D243000296912 /* Main.storyboard */,
@@ -62,6 +67,41 @@
 				3234E0C3228D243100296912 /* Info.plist */,
 			);
 			path = KPITracker;
+			sourceTree = "<group>";
+		};
+		3234E0C9228D377F00296912 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3234E0CA228D6A9E00296912 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3234E0CB228D6AA900296912 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		3234E0CC228D6AB700296912 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		3234E0CE228D6ADA00296912 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
