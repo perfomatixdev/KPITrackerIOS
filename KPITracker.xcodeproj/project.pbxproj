@@ -12,6 +12,12 @@
 		3234E0BD228D243000296912 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3234E0BB228D243000296912 /* Main.storyboard */; };
 		3234E0BF228D243100296912 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3234E0BE228D243100296912 /* Assets.xcassets */; };
 		3234E0C2228D243100296912 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3234E0C0228D243100296912 /* LaunchScreen.storyboard */; };
+		327DB473229521BD004ED6B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3234E0B9228D243000296912 /* ViewController.swift */; };
+		327DB474229521BD004ED6B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3234E0B7228D243000296912 /* AppDelegate.swift */; };
+		327DB477229521BD004ED6B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3234E0C0228D243100296912 /* LaunchScreen.storyboard */; };
+		327DB478229521BD004ED6B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3234E0BE228D243100296912 /* Assets.xcassets */; };
+		327DB479229521BD004ED6B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3234E0BB228D243000296912 /* Main.storyboard */; };
+		327DB4802295270C004ED6B9 /* KPITracker Dev-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 327DB47F2295270C004ED6B9 /* KPITracker Dev-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,10 +28,19 @@
 		3234E0BE228D243100296912 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3234E0C1228D243100296912 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3234E0C3228D243100296912 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		327DB47D229521BD004ED6B9 /* KPITracker Dev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KPITracker Dev.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		327DB47F2295270C004ED6B9 /* KPITracker Dev-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "KPITracker Dev-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		3234E0B1228D243000296912 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327DB475229521BD004ED6B9 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -47,6 +62,7 @@
 			isa = PBXGroup;
 			children = (
 				3234E0B4228D243000296912 /* KPITracker.app */,
+				327DB47D229521BD004ED6B9 /* KPITracker Dev.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -64,6 +80,7 @@
 				3234E0BB228D243000296912 /* Main.storyboard */,
 				3234E0BE228D243100296912 /* Assets.xcassets */,
 				3234E0C0228D243100296912 /* LaunchScreen.storyboard */,
+				327DB47F2295270C004ED6B9 /* KPITracker Dev-Info.plist */,
 				3234E0C3228D243100296912 /* Info.plist */,
 			);
 			path = KPITracker;
@@ -124,6 +141,23 @@
 			productReference = 3234E0B4228D243000296912 /* KPITracker.app */;
 			productType = "com.apple.product-type.application";
 		};
+		327DB471229521BD004ED6B9 /* KPITracker Dev */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 327DB47A229521BD004ED6B9 /* Build configuration list for PBXNativeTarget "KPITracker Dev" */;
+			buildPhases = (
+				327DB472229521BD004ED6B9 /* Sources */,
+				327DB475229521BD004ED6B9 /* Frameworks */,
+				327DB476229521BD004ED6B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "KPITracker Dev";
+			productName = KPITracker;
+			productReference = 327DB47D229521BD004ED6B9 /* KPITracker Dev.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -153,6 +187,7 @@
 			projectRoot = "";
 			targets = (
 				3234E0B3228D243000296912 /* KPITracker */,
+				327DB471229521BD004ED6B9 /* KPITracker Dev */,
 			);
 		};
 /* End PBXProject section */
@@ -165,6 +200,17 @@
 				3234E0C2228D243100296912 /* LaunchScreen.storyboard in Resources */,
 				3234E0BF228D243100296912 /* Assets.xcassets in Resources */,
 				3234E0BD228D243000296912 /* Main.storyboard in Resources */,
+				327DB4802295270C004ED6B9 /* KPITracker Dev-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327DB476229521BD004ED6B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327DB477229521BD004ED6B9 /* LaunchScreen.storyboard in Resources */,
+				327DB478229521BD004ED6B9 /* Assets.xcassets in Resources */,
+				327DB479229521BD004ED6B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -177,6 +223,15 @@
 			files = (
 				3234E0BA228D243000296912 /* ViewController.swift in Sources */,
 				3234E0B8228D243000296912 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		327DB472229521BD004ED6B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				327DB473229521BD004ED6B9 /* ViewController.swift in Sources */,
+				327DB474229521BD004ED6B9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,6 +312,7 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -311,6 +367,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				OTHER_SWIFT_FLAGS = "";
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
@@ -329,6 +386,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.perfomatix.KPITracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -347,7 +405,46 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.perfomatix.KPITracker;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		327DB47B229521BD004ED6B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBA4HSBAFZ;
+				INFOPLIST_FILE = "$(SRCROOT)/KPITracker Dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perfomatix.KPITracker-Dev";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		327DB47C229521BD004ED6B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZBA4HSBAFZ;
+				INFOPLIST_FILE = "$(SRCROOT)/KPITracker Dev-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				OTHER_SWIFT_FLAGS = "-DDEVELOPMENT";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.perfomatix.KPITracker-Dev";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -371,6 +468,15 @@
 			buildConfigurations = (
 				3234E0C7228D243100296912 /* Debug */,
 				3234E0C8228D243100296912 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		327DB47A229521BD004ED6B9 /* Build configuration list for PBXNativeTarget "KPITracker Dev" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				327DB47B229521BD004ED6B9 /* Debug */,
+				327DB47C229521BD004ED6B9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
